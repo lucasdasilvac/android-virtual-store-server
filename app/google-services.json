@@ -1,42 +1,71 @@
 {
   "project_info": {
-    "project_number": "158995360565",
-    "firebase_url": "https://androidvirtualstoreserver.firebaseio.com",
-    "project_id": "androidvirtualstoreserver",
-    "storage_bucket": "androidvirtualstoreserver.appspot.com"
+    "project_number": "1055268884816",
+    "firebase_url": "https://androidvirtualstore.firebaseio.com",
+    "project_id": "androidvirtualstore",
+    "storage_bucket": "androidvirtualstore.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:158995360565:android:440e97a708402e29",
+        "mobilesdk_app_id": "1:1055268884816:android:8490013d08452b31",
         "android_client_info": {
-          "package_name": "lucasdasilvac.dev.androidvirtualstoreserver"
+          "package_name": "lucasdasilvac.dev.androidvirtualstore"
         }
       },
       "oauth_client": [
         {
-          "client_id": "158995360565-clp4m6c84ejogvafchpecg9ckga0lac9.apps.googleusercontent.com",
+          "client_id": "1055268884816-dhrqmmh74vm4tpicda7bflhtgeoqm5v2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "lucasdasilvac.dev.androidvirtualstoreserver",
+            "package_name": "lucasdasilvac.dev.androidvirtualstore",
             "certificate_hash": "3aebb887b566145efc51e53a7973696681cd8b80"
           }
         },
         {
-          "client_id": "158995360565-c431vfv2gv8m1otsf8gidpchbc94e3j2.apps.googleusercontent.com",
+          "client_id": "1055268884816-i1upsqrhujfo3830jc4d5kgjlfnlj5mg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDjsnun7EJ8ei-No52i35790iezyPN8hTM"
+          "current_key": "AIzaSyAowFLCWDDeZUFmWnMSPfEPOdQrZA0vmo4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "158995360565-c431vfv2gv8m1otsf8gidpchbc94e3j2.apps.googleusercontent.com",
+              "client_id": "1055268884816-i1upsqrhujfo3830jc4d5kgjlfnlj5mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055268884816:android:440e97a708402e29",
+        "android_client_info": {
+          "package_name": "lucasdasilvac.dev.androidvirtualstoreserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055268884816-i1upsqrhujfo3830jc4d5kgjlfnlj5mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAowFLCWDDeZUFmWnMSPfEPOdQrZA0vmo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055268884816-i1upsqrhujfo3830jc4d5kgjlfnlj5mg.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

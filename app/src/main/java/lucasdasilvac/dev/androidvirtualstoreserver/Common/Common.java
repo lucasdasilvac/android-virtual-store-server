@@ -7,4 +7,6 @@ public class Common {
 
     public static final String UPDATE = "Atualizar";
     public static final String DELETE = "Deletar";
+
+    public static final int PICK_IMAGE_REQUEST = 71;
 }

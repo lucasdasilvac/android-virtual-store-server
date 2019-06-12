@@ -44,7 +44,7 @@ public class ProductViewHolder extends RecyclerView.ViewHolder implements
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-        menu.setHeaderTitle("Selecione a ação");
+        menu.setHeaderTitle("selecione a ação");
 
         menu.add(0, 0, getAdapterPosition(), Common.UPDATE);
         menu.add(0, 1, getAdapterPosition(), Common.DELETE);

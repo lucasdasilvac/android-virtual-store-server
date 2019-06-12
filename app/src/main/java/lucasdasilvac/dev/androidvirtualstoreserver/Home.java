@@ -223,7 +223,7 @@ public class Home extends AppCompatActivity
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(Intent.createChooser(intent, "Selecione a imagem"), Common.PICK_IMAGE_REQUEST);
+        startActivityForResult(Intent.createChooser(intent, "selecione a imagem"), Common.PICK_IMAGE_REQUEST);
     }
 
     private void loadMenu() {
@@ -320,8 +320,8 @@ public class Home extends AppCompatActivity
 
     private void showUpdateDialog(final String key, final Category item) {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(Home.this);
-        alertDialog.setTitle("Atualizar categoria");
-        alertDialog.setMessage("Por favor preencha todas as informações");
+        alertDialog.setTitle("atualizar categoria");
+        alertDialog.setMessage("por favor preencha todas as informações");
 
         final LayoutInflater inflater  = this.getLayoutInflater();
         View add_menu_layout = inflater.inflate(R.layout.add_new_menu_layout, null);

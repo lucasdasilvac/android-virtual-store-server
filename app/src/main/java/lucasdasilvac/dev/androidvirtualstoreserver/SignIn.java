@@ -70,14 +70,14 @@ public class SignIn extends AppCompatActivity {
                             startActivity(login);
                             finish();
                         } else {
-                            Toast.makeText(SignIn.this, "Senha incorreta", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignIn.this, "senha incorreta", Toast.LENGTH_SHORT).show();
                         }
                     } else {
-                        Toast.makeText(SignIn.this, "Por favor realize login com uma conta da equipe", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignIn.this, "por favor realize login com uma conta da equipe", Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     mDialog.dismiss();
-                    Toast.makeText(SignIn.this, "Usuário não existe no banco de dados", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignIn.this, "usuário não existe no banco de dados", Toast.LENGTH_SHORT).show();
                 }
             }
 

@@ -115,8 +115,8 @@ public class Home extends AppCompatActivity
 
     private void showDialog() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(Home.this);
-        alertDialog.setTitle("Adicionar nova categoria");
-        alertDialog.setMessage("Por favor preencha todas as informações");
+        alertDialog.setTitle("adicionar nova categoria");
+        alertDialog.setMessage("por favor preencha todas as informações");
 
         LayoutInflater inflater  = this.getLayoutInflater();
         View add_menu_layout = inflater.inflate(R.layout.add_new_menu_layout, null);
@@ -181,7 +181,7 @@ public class Home extends AppCompatActivity
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             mDialog.dismiss();
-                            Toast.makeText(Home.this, "Enviado!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Home.this, "enviado", Toast.LENGTH_SHORT).show();
                             imageFolder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
@@ -202,7 +202,7 @@ public class Home extends AppCompatActivity
                         @Override
                         public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
                             double progress = (100.0 * taskSnapshot.getBytesTransferred() / taskSnapshot.getTotalByteCount());
-                            mDialog.setMessage("Enviado "+progress+"%");
+                            mDialog.setMessage("enviado "+progress+"%");
                         }
                     });
         }
@@ -315,7 +315,7 @@ public class Home extends AppCompatActivity
 
     private void deleteCategory(String key) {
         categories.child(key).removeValue();
-        Toast.makeText(this, "Item deletado", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "item deletado", Toast.LENGTH_SHORT).show();
     }
 
     private void showUpdateDialog(final String key, final Category item) {
@@ -386,7 +386,7 @@ public class Home extends AppCompatActivity
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             mDialog.dismiss();
-                            Toast.makeText(Home.this, "Enviado!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Home.this, "enviado!", Toast.LENGTH_SHORT).show();
                             imageFolder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {

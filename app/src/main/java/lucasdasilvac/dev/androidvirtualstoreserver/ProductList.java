@@ -105,8 +105,8 @@ public class ProductList extends AppCompatActivity {
     private void showAddProductDialog() {
 
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(ProductList.this);
-        alertDialog.setTitle("Adicionar novo produto");
-        alertDialog.setMessage("Por favor preencha todas as informações");
+        alertDialog.setTitle("adicionar novo produto");
+        alertDialog.setMessage("por favor preencha todas as informações");
 
         LayoutInflater inflater  = this.getLayoutInflater();
         View add_menu_layout = inflater.inflate(R.layout.add_new_product_layout, null);
@@ -173,7 +173,7 @@ public class ProductList extends AppCompatActivity {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             mDialog.dismiss();
-                            Toast.makeText(ProductList.this, "Enviado!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ProductList.this, "enviado", Toast.LENGTH_SHORT).show();
                             imageFolder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
@@ -199,7 +199,7 @@ public class ProductList extends AppCompatActivity {
                         @Override
                         public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
                             double progress = (100.0 * taskSnapshot.getBytesTransferred() / taskSnapshot.getTotalByteCount());
-                            mDialog.setMessage("Enviado "+progress+"%");
+                            mDialog.setMessage("enviado "+progress+"%");
                         }
                     });
         }
@@ -267,8 +267,8 @@ public class ProductList extends AppCompatActivity {
 
     private void showUpdateProductDialog(final String key, final Product item) {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(ProductList.this);
-        alertDialog.setTitle("Editar produto");
-        alertDialog.setMessage("Por favor preencha todas as informações");
+        alertDialog.setTitle("editar produto");
+        alertDialog.setMessage("por favor preencha todas as informações");
 
         LayoutInflater inflater  = this.getLayoutInflater();
         View add_menu_layout = inflater.inflate(R.layout.add_new_product_layout, null);
@@ -346,7 +346,7 @@ public class ProductList extends AppCompatActivity {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             mDialog.dismiss();
-                            Toast.makeText(ProductList.this, "Enviado!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ProductList.this, "enviado", Toast.LENGTH_SHORT).show();
                             imageFolder.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
@@ -367,7 +367,7 @@ public class ProductList extends AppCompatActivity {
                         @Override
                         public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
                             double progress = (100.0 * taskSnapshot.getBytesTransferred() / taskSnapshot.getTotalByteCount());
-                            mDialog.setMessage("Enviado "+progress+"%");
+                            mDialog.setMessage("enviado "+progress+"%");
                         }
                     });
         }

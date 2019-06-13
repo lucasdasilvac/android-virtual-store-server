@@ -25,7 +25,7 @@
 
         <EditText
             android:id="@+id/edtDescription"
-            android:hint="Description"
+            android:hint="Descrição"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/colorPrimary"
@@ -35,7 +35,7 @@
 
         <EditText
             android:id="@+id/edtPrice"
-            android:hint="Price"
+            android:hint="Preço"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/colorPrimary"
@@ -45,7 +45,7 @@
 
         <EditText
             android:id="@+id/edtDiscount"
-            android:hint="Discount"
+            android:hint="Desconto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/colorPrimary"

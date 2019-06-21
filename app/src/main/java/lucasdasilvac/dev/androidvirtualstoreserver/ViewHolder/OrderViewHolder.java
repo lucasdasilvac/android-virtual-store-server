@@ -1,7 +1,7 @@
 package lucasdasilvac.dev.androidvirtualstoreserver.ViewHolder;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.ContextMenu;
 import android.view.View;
 import android.widget.TextView;
@@ -33,7 +33,7 @@ public class OrderViewHolder extends RecyclerView.ViewHolder implements View.OnC
 
     @Override
     public void onClick(View v) {
-        //itemClickListener.onClick(v, getAdapterPosition(), false);
+        itemClickListener.onClick(v, getAdapterPosition(), false);
     }
 
     @Override
